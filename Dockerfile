@@ -12,4 +12,4 @@ COPY run_me.py .
 # Set up directories for input and output
 VOLUME ["/app/input", "/app/output"]
 
-#CMD ["python", "./run_me.py"]
+CMD ["python", "./run_me.py"]
